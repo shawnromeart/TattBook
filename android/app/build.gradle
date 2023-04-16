@@ -118,24 +118,24 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
-        release {
-            storeFile file('tattey.keystore')
-            storePassword 'tattoo666'
-            keyAlias 'key0'
-            keyPassword 'tattoo666'
-        }
+        // release {
+        //     storeFile file('tattey.keystore')
+        //     storePassword 'tattoo666'
+        //     keyAlias 'key0'
+        //     keyPassword 'tattoo666'
+        // }
     }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
         }
-        release {
-            // Caution! In production, you need to generate your own keystore file.
-            // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.release
-            minifyEnabled enableProguardInReleaseBuilds
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-        }
+        // release {
+        //     // Caution! In production, you need to generate your own keystore file.
+        //     // see https://reactnative.dev/docs/signed-apk-android.
+        //     signingConfig signingConfigs.release
+        //     minifyEnabled enableProguardInReleaseBuilds
+        //     proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        // }
     }
 
     // applicationVariants are e.g. debug, release
