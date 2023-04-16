@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
 brew tap homebrew/cask-versions
-brew install --cask zulu11
+brew tap AdoptOpenJDK/openjdk
+brew install --cask adoptopenjdk17
