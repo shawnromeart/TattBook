@@ -785,9 +785,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tattey-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tattbook";
 				PRODUCT_NAME = TattBook;
-				PROVISIONING_PROFILE_SPECIFIER = "TattBook TattooLV Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "Brent Profile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -869,9 +869,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tattey-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tattbook";
 				PRODUCT_NAME = TattBook;
-				PROVISIONING_PROFILE_SPECIFIER = "TattBook TattooLV Distribution";
+				PROVISIONING_PROFILE_SPECIFIER = "Brent Profile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
