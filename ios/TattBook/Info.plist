@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Tatt Book</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CodePushDeploymentKey</key>
+	<string>MIhSoGAvsL4Fcq_k9esbyBfyyyOTmpIkNGIAg</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Need Camera To Capture Image for Uploading to profile section</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Access Gallery  to pick Images for Uploading to Profile Section</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>BananasPersonalUse.ttf</string>
+		<string>Boogaloo-Regular.ttf</string>
+		<string>breamcatcher rg.otf</string>
+		<string>Bulletto Killa.ttf</string>
+		<string>coolvetica compressed hv.otf</string>
+		<string>coolvetica condensed rg.otf</string>
+		<string>coolvetica crammed rg.otf</string>
+		<string>coolvetica rg it.otf</string>
+		<string>coolvetica rg.otf</string>
+		<string>degrassi back.ttf</string>
+		<string>degrassi front.ttf</string>
+		<string>degrassi.ttf</string>
+		<string>Ginga.ttf</string>
+		<string>Gladifilthefte.ttf</string>
+		<string>Afterglow-Regular.ttf</string>
+		<string>BODAR.ttf</string>
+		<string>Bright Gesture DEMO.otf</string>
+		<string>Butler_Light.otf</string>
+		<string>Butler_Medium.otf</string>
+		<string>Catalina Rayden.ttf</string>
+		<string>Cinzel-Bold.otf</string>
+		<string>Cinzel-Regular.otf</string>
+		<string>EDITION_.TTF</string>
+		<string>Fraternite.ttf</string>
+		<string>Galorine.ttf</string>
+		<string>Gyahegi.otf</string>
+		<string>HARMONY Personal use.otf</string>
+		<string>Love.ttf</string>
+		<string>MADE Sunflower PERSONAL USE.otf</string>
+		<string>Meiland Gorgeous.ttf</string>
+		<string>Mermaid Swash Caps.ttf</string>
+		<string>Mermaid1001.ttf</string>
+		<string>Monea Alegante.otf</string>
+		<string>NewYork PERSONAL USE.otf</string>
+		<string>NT Josefine (only personal use).otf</string>
+		<string>NT Wagner (only personal use).otf</string>
+		<string>OptimusPrinceps.ttf</string>
+		<string>OptimusPrincepsSemiBold.ttf</string>
+		<string>Vogue.ttf</string>
+		<string>Wastinger Display Free Personal.ttf</string>
+		<string>african.ttf</string>
+		<string>Asteria Royalty DEMO.otf</string>
+		<string>Automatic.otf</string>
+		<string>BARNEY POP.otf</string>
+		<string>BARNEY POP.ttf</string>
+		<string>Bell and Lamb - Personal Use.otf</string>
+		<string>Boismen Light.ttf</string>
+		<string>Break.ttf</string>
+		<string>Broken.otf</string>
+		<string>Corleone.TTF</string>
+		<string>CorleoneDue.TTF</string>
+		<string>Coup de Poker.ttf</string>
+		<string>Draw me the Rainbow.ttf</string>
+		<string>Fake Identity.ttf</string>
+		<string>HARRYP__.TTF</string>
+		<string>Jack Simba - Personal Use.otf</string>
+		<string>KGRedHands.ttf</string>
+		<string>KGRedHandsOutline.ttf</string>
+		<string>KGSecondChancesSketch.ttf</string>
+		<string>KGSecondChancesSolid.ttf</string>
+		<string>MASQUE__.ttf</string>
+		<string>PaybAck.ttf</string>
+		<string>RifficFree-Bold.ttf</string>
+		<string>Saiyan-Sans Left Oblique.ttf</string>
+		<string>Saiyan-Sans Right Oblique.ttf</string>
+		<string>Saiyan-Sans.ttf</string>
+		<string>Sour Candy.ttf</string>
+		<string>Speedway.ttf</string>
+		<string>Stay and Shine.ttf</string>
+		<string>Stroke.ttf</string>
+		<string>Sweet Pancakes.otf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

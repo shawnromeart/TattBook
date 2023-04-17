@@ -1,0 +1,1036 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* TattBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TattBookTests.m */; };
+		0A80956B921348D6807ECD5C /* Saiyan-Sans Left Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8063E6FD41B47D3BB70C3EF /* Saiyan-Sans Left Oblique.ttf */; };
+		0AB5A3E9B8A3406A9CB0B652 /* MASQUE__.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3ECE2B056E654FF99B05C4D6 /* MASQUE__.ttf */; };
+		12ACAF04372D4A58B7401750 /* EDITION_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 5E5BD4870C6C40359FC14652 /* EDITION_.TTF */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1880C790932E4106910769BA /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3DF67210AAC5432DB745EEB6 /* HARRYP__.TTF */; };
+		1EB22FD0D4754B0FBFD3AD27 /* Galorine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4FD9EE396E949B8B8E65AE2 /* Galorine.ttf */; };
+		280440D955EE4D4DA82893E1 /* KGSecondChancesSketch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB17198BB68A429594644C69 /* KGSecondChancesSketch.ttf */; };
+		29630271DBB24DF788909A22 /* NT Josefine (only personal use).otf in Resources */ = {isa = PBXBuildFile; fileRef = 90031B35C336422BB1515A2A /* NT Josefine (only personal use).otf */; };
+		2F29ECBDD3A3494E8EE81B6C /* Stay and Shine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29105F6FEA51425695073CF1 /* Stay and Shine.ttf */; };
+		2FCA1A3D290D486C9CEAF796 /* Butler_Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A422BC0F4CE14F5E8BED3CF2 /* Butler_Light.otf */; };
+		3128AF0C3ECE4799BA1D1096 /* Monea Alegante.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FCDBEAD8B2B4FFABC4D936D /* Monea Alegante.otf */; };
+		39B2902259F3498F988B44B7 /* Butler_Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA4B88AACF4B04900BEA6B /* Butler_Medium.otf */; };
+		3DB0D518673944C28A528CAC /* Fraternite.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5614AFE933C24F01AE6CDC3F /* Fraternite.ttf */; };
+		4D2948E436F74850B6542969 /* Afterglow-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC6CA7D5E0DA4993B042470C /* Afterglow-Regular.ttf */; };
+		4EB4D8909D924BF7B643A151 /* Sour Candy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31573C44C0E6401582622D6B /* Sour Candy.ttf */; };
+		53BDA4FDD8D14C949007C926 /* Automatic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B7C84921D2CF4FD883690F7C /* Automatic.otf */; };
+		5DE82453885D40E299FF6A9F /* HARMONY Personal use.otf in Resources */ = {isa = PBXBuildFile; fileRef = A8F07A8D77CB4BB6934244C7 /* HARMONY Personal use.otf */; };
+		5FA130D7B72D41E1962336E4 /* Saiyan-Sans Right Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A13DB9B7EA814478B27AF322 /* Saiyan-Sans Right Oblique.ttf */; };
+		6833BF5561D54A64AFEE65AC /* PaybAck.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69780FAE74D048BC8652A07D /* PaybAck.ttf */; };
+		6B77F355AC8C47408EC8E9FC /* Boismen Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C64AFEA08EB4F0887A558B5 /* Boismen Light.ttf */; };
+		6FE3C579AD85430D8278C360 /* Draw me the Rainbow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2305F51C10B44ADB891A885F /* Draw me the Rainbow.ttf */; };
+		707271032BEB4B7CA9D79465 /* KGRedHands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C22DED56A263458FA14CE016 /* KGRedHands.ttf */; };
+		74E7633725FA44AFBFB6EED6 /* NT Wagner (only personal use).otf in Resources */ = {isa = PBXBuildFile; fileRef = C46045BB0FEE4AD3B25AC5D7 /* NT Wagner (only personal use).otf */; };
+		7841EEDFE6DA4197B9CDAA48 /* OptimusPrinceps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55DC311FD19B4FA8855E584B /* OptimusPrinceps.ttf */; };
+		7D00FC871B0A4B24B4AF9DCC /* Catalina Rayden.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 119B9843D61E44AF83380874 /* Catalina Rayden.ttf */; };
+		7D479A25C7C64164BF6A35CE /* Mermaid1001.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B41563D1A893403E80765282 /* Mermaid1001.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		829E227C8A2B458A852E3E92 /* Speedway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F5EC30E171843159737EDE8 /* Speedway.ttf */; };
+		8AF498934A1546588C860832 /* Wastinger Display Free Personal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4DDBDC2BC404781A6C368BA /* Wastinger Display Free Personal.ttf */; };
+		8EA298A0286D41F98202D3EE /* Broken.otf in Resources */ = {isa = PBXBuildFile; fileRef = F564BE9CFF554393AE4EA65D /* Broken.otf */; };
+		8FC35EB6D5434842A162CF00 /* Fake Identity.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67E5F9764949499097FDC78D /* Fake Identity.ttf */; };
+		8FC85973D3E54BAEB2465C5F /* MADE Sunflower PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1B3F74DA78774222B5BAD66A /* MADE Sunflower PERSONAL USE.otf */; };
+		90CAC834E4984ACCB7C2ABB7 /* Vogue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3FB69346D334FBB8E07F5B5 /* Vogue.ttf */; };
+		9613A44DB0C344B5AFE26B91 /* Love.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D382EB2B6C0B40BD9078D6E8 /* Love.ttf */; };
+		99D436EAEA62445185CD3F1C /* Break.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F3898BDEF4334ACCDD290 /* Break.ttf */; };
+		9AA48EE2F33646F6BAA5F0C2 /* Asteria Royalty DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5DC1D5AEBD14E7F92A98517 /* Asteria Royalty DEMO.otf */; };
+		9DC78F4DE69B45D0BFDC770E /* Coup de Poker.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EEFA0A64A04490EA0FAAA2E /* Coup de Poker.ttf */; };
+		A52A9CD929AC4CAEBCFC3E2D /* Jack Simba - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7D02B2F344324FA5B4C15080 /* Jack Simba - Personal Use.otf */; };
+		A5B657D925AC48D4B4A9A53A /* Cinzel-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A16E839CCCDB45C2ADE84EFF /* Cinzel-Bold.otf */; };
+		AA91D8E4775441089F1A634A /* Bell and Lamb - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD7EB0838FD94F3A9FDE85BA /* Bell and Lamb - Personal Use.otf */; };
+		AABA2AD55CA24D028B499603 /* Cinzel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81AE8AB29C2B45B180193046 /* Cinzel-Regular.otf */; };
+		BA6121DE86684F19A0C5CD2B /* RifficFree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB1413A13BB04569BD53252A /* RifficFree-Bold.ttf */; };
+		BF09FD6763D649B7B232330B /* OptimusPrincepsSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671404FA4CC64F82BAFD7937 /* OptimusPrincepsSemiBold.ttf */; };
+		C410DD255FC04F42A30C75E8 /* CorleoneDue.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 8DD75E5EAB0649ECA9EB3457 /* CorleoneDue.TTF */; };
+		CD170874FEAC41F1865D498A /* libPods-TattBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 655BC24D2A53F74310763A25 /* libPods-TattBook.a */; };
+		CD9B6E339ED64FEE8BFF3FD6 /* Saiyan-Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 183858E5444A406FAA3F2829 /* Saiyan-Sans.ttf */; };
+		CFF006C20E0D447E911DF974 /* KGSecondChancesSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8DAF49F4F534D79A9C77DDE /* KGSecondChancesSolid.ttf */; };
+		D205701F15824EFF936462D1 /* Gyahegi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8527B8E74E5842EA8D4C9E5D /* Gyahegi.otf */; };
+		D5FB1705D7FA4A289DF0B804 /* NewYork PERSONAL USE.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92E6AF18FDD94296ACE8F497 /* NewYork PERSONAL USE.otf */; };
+		D6848DFC919245AFB8EC3D61 /* BARNEY POP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B2C8B1469CD479B93B93181 /* BARNEY POP.ttf */; };
+		D6D4A4EA9BB64667B266E3F2 /* Meiland Gorgeous.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9154D06A84584951B95A93A0 /* Meiland Gorgeous.ttf */; };
+		D9A1764147084C6698D1B2D9 /* BARNEY POP.otf in Resources */ = {isa = PBXBuildFile; fileRef = C23EFD96C05E4915B41B43BC /* BARNEY POP.otf */; };
+		DBEE02F02AEE45DC8C17869F /* KGRedHandsOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36363CDCF442438480D47A25 /* KGRedHandsOutline.ttf */; };
+		DDE86BBC53F1CE3CD1E61013 /* libPods-TattBook-TattBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA50E479BB04E8D4DF00D74 /* libPods-TattBook-TattBookTests.a */; };
+		DE2D08BD873D40E49F6EADE6 /* Corleone.TTF in Resources */ = {isa = PBXBuildFile; fileRef = F09CEC60C63741FAB7FB80A3 /* Corleone.TTF */; };
+		DF047E033314463E9589D6C6 /* BODAR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306ED5D02FCC485DA9725270 /* BODAR.ttf */; };
+		DFAA613BAE20411388129094 /* Bright Gesture DEMO.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABA077C7C87246F7B3D73734 /* Bright Gesture DEMO.otf */; };
+		E650C1BC26C842B9889A35FB /* african.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BF6D77B9E2D49CC94CFA9F9 /* african.ttf */; };
+		F942C36BD34E4A1BA0D281C3 /* Sweet Pancakes.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4404495D949EDA500FAA5 /* Sweet Pancakes.otf */; };
+		F9E525AEAF764EF6898601FA /* Stroke.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC019609E6944DA6832CD9AA /* Stroke.ttf */; };
+		FCED59970F0B44CB9CEA0EB3 /* Mermaid Swash Caps.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC5A709BA47F42F79D6E04B4 /* Mermaid Swash Caps.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = TattBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* TattBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TattBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* TattBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TattBookTests.m; sourceTree = "<group>"; };
+		08CF7B3A5AA44D2DB4BB5BD9 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		119B9843D61E44AF83380874 /* Catalina Rayden.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Catalina Rayden.ttf"; path = "../assets/fonts/Catalina Rayden.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* TattBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TattBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TattBook/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TattBook/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TattBook/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TattBook/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TattBook/main.m; sourceTree = "<group>"; };
+		183858E5444A406FAA3F2829 /* Saiyan-Sans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Saiyan-Sans.ttf"; path = "../assets/fonts/Saiyan-Sans.ttf"; sourceTree = "<group>"; };
+		1B3F74DA78774222B5BAD66A /* MADE Sunflower PERSONAL USE.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MADE Sunflower PERSONAL USE.otf"; path = "../assets/fonts/MADE Sunflower PERSONAL USE.otf"; sourceTree = "<group>"; };
+		1FCDBEAD8B2B4FFABC4D936D /* Monea Alegante.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Monea Alegante.otf"; path = "../assets/fonts/Monea Alegante.otf"; sourceTree = "<group>"; };
+		22D6D2E8B73B4B53B756F7C5 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		2305F51C10B44ADB891A885F /* Draw me the Rainbow.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Draw me the Rainbow.ttf"; path = "../assets/fonts/Draw me the Rainbow.ttf"; sourceTree = "<group>"; };
+		245BFF8664044E6395EDE950 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		29105F6FEA51425695073CF1 /* Stay and Shine.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Stay and Shine.ttf"; path = "../assets/fonts/Stay and Shine.ttf"; sourceTree = "<group>"; };
+		306ED5D02FCC485DA9725270 /* BODAR.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BODAR.ttf; path = ../assets/fonts/BODAR.ttf; sourceTree = "<group>"; };
+		30BE6C15261B526EDC918EAB /* Pods-TattBook-TattBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TattBook-TattBookTests.release.xcconfig"; path = "Target Support Files/Pods-TattBook-TattBookTests/Pods-TattBook-TattBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		31573C44C0E6401582622D6B /* Sour Candy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sour Candy.ttf"; path = "../assets/fonts/Sour Candy.ttf"; sourceTree = "<group>"; };
+		35128A983A23406C95DE7A3A /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		36363CDCF442438480D47A25 /* KGRedHandsOutline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KGRedHandsOutline.ttf; path = ../assets/fonts/KGRedHandsOutline.ttf; sourceTree = "<group>"; };
+		37519F1C607DCE9A7B68C864 /* Pods-TattBook-TattBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TattBook-TattBookTests.debug.xcconfig"; path = "Target Support Files/Pods-TattBook-TattBookTests/Pods-TattBook-TattBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF6D77B9E2D49CC94CFA9F9 /* african.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = african.ttf; path = ../assets/fonts/african.ttf; sourceTree = "<group>"; };
+		3C9F3898BDEF4334ACCDD290 /* Break.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Break.ttf; path = ../assets/fonts/Break.ttf; sourceTree = "<group>"; };
+		3DF67210AAC5432DB745EEB6 /* HARRYP__.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HARRYP__.TTF; path = ../assets/fonts/HARRYP__.TTF; sourceTree = "<group>"; };
+		3ECE2B056E654FF99B05C4D6 /* MASQUE__.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MASQUE__.ttf; path = ../assets/fonts/MASQUE__.ttf; sourceTree = "<group>"; };
+		3FDD231FC51A2E738854246A /* Pods-TattBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TattBook.release.xcconfig"; path = "Target Support Files/Pods-TattBook/Pods-TattBook.release.xcconfig"; sourceTree = "<group>"; };
+		533DB560EBC442F88690D1C6 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		55DC311FD19B4FA8855E584B /* OptimusPrinceps.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OptimusPrinceps.ttf; path = ../assets/fonts/OptimusPrinceps.ttf; sourceTree = "<group>"; };
+		5614AFE933C24F01AE6CDC3F /* Fraternite.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fraternite.ttf; path = ../assets/fonts/Fraternite.ttf; sourceTree = "<group>"; };
+		5E5BD4870C6C40359FC14652 /* EDITION_.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EDITION_.TTF; path = ../assets/fonts/EDITION_.TTF; sourceTree = "<group>"; };
+		5F5EC30E171843159737EDE8 /* Speedway.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Speedway.ttf; path = ../assets/fonts/Speedway.ttf; sourceTree = "<group>"; };
+		655BC24D2A53F74310763A25 /* libPods-TattBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TattBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		671404FA4CC64F82BAFD7937 /* OptimusPrincepsSemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OptimusPrincepsSemiBold.ttf; path = ../assets/fonts/OptimusPrincepsSemiBold.ttf; sourceTree = "<group>"; };
+		67E5F9764949499097FDC78D /* Fake Identity.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Fake Identity.ttf"; path = "../assets/fonts/Fake Identity.ttf"; sourceTree = "<group>"; };
+		69780FAE74D048BC8652A07D /* PaybAck.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = PaybAck.ttf; path = ../assets/fonts/PaybAck.ttf; sourceTree = "<group>"; };
+		6C64AFEA08EB4F0887A558B5 /* Boismen Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Boismen Light.ttf"; path = "../assets/fonts/Boismen Light.ttf"; sourceTree = "<group>"; };
+		6CDA4B88AACF4B04900BEA6B /* Butler_Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Butler_Medium.otf; path = ../assets/fonts/Butler_Medium.otf; sourceTree = "<group>"; };
+		6E65D94AFE4F48D1B95813AF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		7D02B2F344324FA5B4C15080 /* Jack Simba - Personal Use.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Jack Simba - Personal Use.otf"; path = "../assets/fonts/Jack Simba - Personal Use.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TattBook/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AE8AB29C2B45B180193046 /* Cinzel-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Regular.otf"; path = "../assets/fonts/Cinzel-Regular.otf"; sourceTree = "<group>"; };
+		8527B8E74E5842EA8D4C9E5D /* Gyahegi.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Gyahegi.otf; path = ../assets/fonts/Gyahegi.otf; sourceTree = "<group>"; };
+		8B2C8B1469CD479B93B93181 /* BARNEY POP.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BARNEY POP.ttf"; path = "../assets/fonts/BARNEY POP.ttf"; sourceTree = "<group>"; };
+		8CC33AE7307843D4B1022B6B /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		8DD75E5EAB0649ECA9EB3457 /* CorleoneDue.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = CorleoneDue.TTF; path = ../assets/fonts/CorleoneDue.TTF; sourceTree = "<group>"; };
+		8EEFA0A64A04490EA0FAAA2E /* Coup de Poker.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Coup de Poker.ttf"; path = "../assets/fonts/Coup de Poker.ttf"; sourceTree = "<group>"; };
+		90031B35C336422BB1515A2A /* NT Josefine (only personal use).otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NT Josefine (only personal use).otf"; path = "../assets/fonts/NT Josefine (only personal use).otf"; sourceTree = "<group>"; };
+		9154D06A84584951B95A93A0 /* Meiland Gorgeous.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Meiland Gorgeous.ttf"; path = "../assets/fonts/Meiland Gorgeous.ttf"; sourceTree = "<group>"; };
+		92E6AF18FDD94296ACE8F497 /* NewYork PERSONAL USE.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NewYork PERSONAL USE.otf"; path = "../assets/fonts/NewYork PERSONAL USE.otf"; sourceTree = "<group>"; };
+		9AF20A4129DC4200A028EDA9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		9FA4404495D949EDA500FAA5 /* Sweet Pancakes.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sweet Pancakes.otf"; path = "../assets/fonts/Sweet Pancakes.otf"; sourceTree = "<group>"; };
+		A13DB9B7EA814478B27AF322 /* Saiyan-Sans Right Oblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Saiyan-Sans Right Oblique.ttf"; path = "../assets/fonts/Saiyan-Sans Right Oblique.ttf"; sourceTree = "<group>"; };
+		A16E839CCCDB45C2ADE84EFF /* Cinzel-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Bold.otf"; path = "../assets/fonts/Cinzel-Bold.otf"; sourceTree = "<group>"; };
+		A2ED4D934A974DBEA475C80B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A422BC0F4CE14F5E8BED3CF2 /* Butler_Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Butler_Light.otf; path = ../assets/fonts/Butler_Light.otf; sourceTree = "<group>"; };
+		A5C0702B87434F86BE2EB89E /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		A5DC1D5AEBD14E7F92A98517 /* Asteria Royalty DEMO.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Asteria Royalty DEMO.otf"; path = "../assets/fonts/Asteria Royalty DEMO.otf"; sourceTree = "<group>"; };
+		A8F07A8D77CB4BB6934244C7 /* HARMONY Personal use.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HARMONY Personal use.otf"; path = "../assets/fonts/HARMONY Personal use.otf"; sourceTree = "<group>"; };
+		A903C6FB602F0BE4C5CEA226 /* Pods-TattBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TattBook.debug.xcconfig"; path = "Target Support Files/Pods-TattBook/Pods-TattBook.debug.xcconfig"; sourceTree = "<group>"; };
+		AB17198BB68A429594644C69 /* KGSecondChancesSketch.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KGSecondChancesSketch.ttf; path = ../assets/fonts/KGSecondChancesSketch.ttf; sourceTree = "<group>"; };
+		ABA077C7C87246F7B3D73734 /* Bright Gesture DEMO.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bright Gesture DEMO.otf"; path = "../assets/fonts/Bright Gesture DEMO.otf"; sourceTree = "<group>"; };
+		AC5A709BA47F42F79D6E04B4 /* Mermaid Swash Caps.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Mermaid Swash Caps.ttf"; path = "../assets/fonts/Mermaid Swash Caps.ttf"; sourceTree = "<group>"; };
+		AC6CA7D5E0DA4993B042470C /* Afterglow-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Afterglow-Regular.ttf"; path = "../assets/fonts/Afterglow-Regular.ttf"; sourceTree = "<group>"; };
+		B1894C08E850446C81BFF0E9 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		B41563D1A893403E80765282 /* Mermaid1001.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Mermaid1001.ttf; path = ../assets/fonts/Mermaid1001.ttf; sourceTree = "<group>"; };
+		B7C84921D2CF4FD883690F7C /* Automatic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Automatic.otf; path = ../assets/fonts/Automatic.otf; sourceTree = "<group>"; };
+		C22DED56A263458FA14CE016 /* KGRedHands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KGRedHands.ttf; path = ../assets/fonts/KGRedHands.ttf; sourceTree = "<group>"; };
+		C23EFD96C05E4915B41B43BC /* BARNEY POP.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "BARNEY POP.otf"; path = "../assets/fonts/BARNEY POP.otf"; sourceTree = "<group>"; };
+		C331199FF72B4D1294230A76 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		C3FB69346D334FBB8E07F5B5 /* Vogue.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Vogue.ttf; path = ../assets/fonts/Vogue.ttf; sourceTree = "<group>"; };
+		C46045BB0FEE4AD3B25AC5D7 /* NT Wagner (only personal use).otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NT Wagner (only personal use).otf"; path = "../assets/fonts/NT Wagner (only personal use).otf"; sourceTree = "<group>"; };
+		C8063E6FD41B47D3BB70C3EF /* Saiyan-Sans Left Oblique.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Saiyan-Sans Left Oblique.ttf"; path = "../assets/fonts/Saiyan-Sans Left Oblique.ttf"; sourceTree = "<group>"; };
+		CB1413A13BB04569BD53252A /* RifficFree-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RifficFree-Bold.ttf"; path = "../assets/fonts/RifficFree-Bold.ttf"; sourceTree = "<group>"; };
+		CD7EB0838FD94F3A9FDE85BA /* Bell and Lamb - Personal Use.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bell and Lamb - Personal Use.otf"; path = "../assets/fonts/Bell and Lamb - Personal Use.otf"; sourceTree = "<group>"; };
+		CEA50E479BB04E8D4DF00D74 /* libPods-TattBook-TattBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TattBook-TattBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF630CCEBF184D24804CF53C /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		D35970ED3C764E40A9069741 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		D382EB2B6C0B40BD9078D6E8 /* Love.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Love.ttf; path = ../assets/fonts/Love.ttf; sourceTree = "<group>"; };
+		DC019609E6944DA6832CD9AA /* Stroke.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Stroke.ttf; path = ../assets/fonts/Stroke.ttf; sourceTree = "<group>"; };
+		E34B14FD079646EEA063C048 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E4DDBDC2BC404781A6C368BA /* Wastinger Display Free Personal.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Wastinger Display Free Personal.ttf"; path = "../assets/fonts/Wastinger Display Free Personal.ttf"; sourceTree = "<group>"; };
+		E4FD9EE396E949B8B8E65AE2 /* Galorine.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Galorine.ttf; path = ../assets/fonts/Galorine.ttf; sourceTree = "<group>"; };
+		E8AB38799D5B4887906B52CF /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		E8DAF49F4F534D79A9C77DDE /* KGSecondChancesSolid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = KGSecondChancesSolid.ttf; path = ../assets/fonts/KGSecondChancesSolid.ttf; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F09CEC60C63741FAB7FB80A3 /* Corleone.TTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Corleone.TTF; path = ../assets/fonts/Corleone.TTF; sourceTree = "<group>"; };
+		F564BE9CFF554393AE4EA65D /* Broken.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Broken.otf; path = ../assets/fonts/Broken.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE86BBC53F1CE3CD1E61013 /* libPods-TattBook-TattBookTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD170874FEAC41F1865D498A /* libPods-TattBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* TattBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* TattBookTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = TattBookTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* TattBook */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = TattBook;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				655BC24D2A53F74310763A25 /* libPods-TattBook.a */,
+				CEA50E479BB04E8D4DF00D74 /* libPods-TattBook-TattBookTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* TattBook */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* TattBookTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BF6533AD4622447E8CE9AE89 /* Resources */,
+				F180B661601B223F8845B7FB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* TattBook.app */,
+				00E356EE1AD99517003FC87E /* TattBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6533AD4622447E8CE9AE89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2ED4D934A974DBEA475C80B /* AntDesign.ttf */,
+				D35970ED3C764E40A9069741 /* Entypo.ttf */,
+				8CC33AE7307843D4B1022B6B /* EvilIcons.ttf */,
+				CF630CCEBF184D24804CF53C /* Feather.ttf */,
+				22D6D2E8B73B4B53B756F7C5 /* FontAwesome.ttf */,
+				6E65D94AFE4F48D1B95813AF /* FontAwesome5_Brands.ttf */,
+				245BFF8664044E6395EDE950 /* FontAwesome5_Regular.ttf */,
+				35128A983A23406C95DE7A3A /* FontAwesome5_Solid.ttf */,
+				E34B14FD079646EEA063C048 /* Fontisto.ttf */,
+				533DB560EBC442F88690D1C6 /* Foundation.ttf */,
+				B1894C08E850446C81BFF0E9 /* Ionicons.ttf */,
+				9AF20A4129DC4200A028EDA9 /* MaterialCommunityIcons.ttf */,
+				08CF7B3A5AA44D2DB4BB5BD9 /* MaterialIcons.ttf */,
+				A5C0702B87434F86BE2EB89E /* Octicons.ttf */,
+				C331199FF72B4D1294230A76 /* SimpleLineIcons.ttf */,
+				E8AB38799D5B4887906B52CF /* Zocial.ttf */,
+				AC6CA7D5E0DA4993B042470C /* Afterglow-Regular.ttf */,
+				306ED5D02FCC485DA9725270 /* BODAR.ttf */,
+				ABA077C7C87246F7B3D73734 /* Bright Gesture DEMO.otf */,
+				A422BC0F4CE14F5E8BED3CF2 /* Butler_Light.otf */,
+				6CDA4B88AACF4B04900BEA6B /* Butler_Medium.otf */,
+				119B9843D61E44AF83380874 /* Catalina Rayden.ttf */,
+				A16E839CCCDB45C2ADE84EFF /* Cinzel-Bold.otf */,
+				81AE8AB29C2B45B180193046 /* Cinzel-Regular.otf */,
+				5E5BD4870C6C40359FC14652 /* EDITION_.TTF */,
+				5614AFE933C24F01AE6CDC3F /* Fraternite.ttf */,
+				E4FD9EE396E949B8B8E65AE2 /* Galorine.ttf */,
+				8527B8E74E5842EA8D4C9E5D /* Gyahegi.otf */,
+				A8F07A8D77CB4BB6934244C7 /* HARMONY Personal use.otf */,
+				D382EB2B6C0B40BD9078D6E8 /* Love.ttf */,
+				1B3F74DA78774222B5BAD66A /* MADE Sunflower PERSONAL USE.otf */,
+				9154D06A84584951B95A93A0 /* Meiland Gorgeous.ttf */,
+				AC5A709BA47F42F79D6E04B4 /* Mermaid Swash Caps.ttf */,
+				B41563D1A893403E80765282 /* Mermaid1001.ttf */,
+				1FCDBEAD8B2B4FFABC4D936D /* Monea Alegante.otf */,
+				92E6AF18FDD94296ACE8F497 /* NewYork PERSONAL USE.otf */,
+				90031B35C336422BB1515A2A /* NT Josefine (only personal use).otf */,
+				C46045BB0FEE4AD3B25AC5D7 /* NT Wagner (only personal use).otf */,
+				55DC311FD19B4FA8855E584B /* OptimusPrinceps.ttf */,
+				671404FA4CC64F82BAFD7937 /* OptimusPrincepsSemiBold.ttf */,
+				C3FB69346D334FBB8E07F5B5 /* Vogue.ttf */,
+				E4DDBDC2BC404781A6C368BA /* Wastinger Display Free Personal.ttf */,
+				3BF6D77B9E2D49CC94CFA9F9 /* african.ttf */,
+				A5DC1D5AEBD14E7F92A98517 /* Asteria Royalty DEMO.otf */,
+				B7C84921D2CF4FD883690F7C /* Automatic.otf */,
+				C23EFD96C05E4915B41B43BC /* BARNEY POP.otf */,
+				8B2C8B1469CD479B93B93181 /* BARNEY POP.ttf */,
+				CD7EB0838FD94F3A9FDE85BA /* Bell and Lamb - Personal Use.otf */,
+				6C64AFEA08EB4F0887A558B5 /* Boismen Light.ttf */,
+				3C9F3898BDEF4334ACCDD290 /* Break.ttf */,
+				F564BE9CFF554393AE4EA65D /* Broken.otf */,
+				F09CEC60C63741FAB7FB80A3 /* Corleone.TTF */,
+				8DD75E5EAB0649ECA9EB3457 /* CorleoneDue.TTF */,
+				8EEFA0A64A04490EA0FAAA2E /* Coup de Poker.ttf */,
+				2305F51C10B44ADB891A885F /* Draw me the Rainbow.ttf */,
+				67E5F9764949499097FDC78D /* Fake Identity.ttf */,
+				3DF67210AAC5432DB745EEB6 /* HARRYP__.TTF */,
+				7D02B2F344324FA5B4C15080 /* Jack Simba - Personal Use.otf */,
+				C22DED56A263458FA14CE016 /* KGRedHands.ttf */,
+				36363CDCF442438480D47A25 /* KGRedHandsOutline.ttf */,
+				AB17198BB68A429594644C69 /* KGSecondChancesSketch.ttf */,
+				E8DAF49F4F534D79A9C77DDE /* KGSecondChancesSolid.ttf */,
+				3ECE2B056E654FF99B05C4D6 /* MASQUE__.ttf */,
+				69780FAE74D048BC8652A07D /* PaybAck.ttf */,
+				CB1413A13BB04569BD53252A /* RifficFree-Bold.ttf */,
+				C8063E6FD41B47D3BB70C3EF /* Saiyan-Sans Left Oblique.ttf */,
+				A13DB9B7EA814478B27AF322 /* Saiyan-Sans Right Oblique.ttf */,
+				183858E5444A406FAA3F2829 /* Saiyan-Sans.ttf */,
+				31573C44C0E6401582622D6B /* Sour Candy.ttf */,
+				5F5EC30E171843159737EDE8 /* Speedway.ttf */,
+				29105F6FEA51425695073CF1 /* Stay and Shine.ttf */,
+				DC019609E6944DA6832CD9AA /* Stroke.ttf */,
+				9FA4404495D949EDA500FAA5 /* Sweet Pancakes.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F180B661601B223F8845B7FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A903C6FB602F0BE4C5CEA226 /* Pods-TattBook.debug.xcconfig */,
+				3FDD231FC51A2E738854246A /* Pods-TattBook.release.xcconfig */,
+				37519F1C607DCE9A7B68C864 /* Pods-TattBook-TattBookTests.debug.xcconfig */,
+				30BE6C15261B526EDC918EAB /* Pods-TattBook-TattBookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* TattBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TattBookTests" */;
+			buildPhases = (
+				F9C32F54D77AE8001BD5009F /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C2705A59CAE3E07404CFDADD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = TattBookTests;
+			productName = TattBookTests;
+			productReference = 00E356EE1AD99517003FC87E /* TattBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* TattBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TattBook" */;
+			buildPhases = (
+				22F742496E6540402F174CA6 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2EBF5A9D309A3842B9929106 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TattBook;
+			productName = TattBook;
+			productReference = 13B07F961A680F5B00A75B9A /* TattBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TattBook" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* TattBook */,
+				00E356ED1AD99517003FC87E /* TattBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4D2948E436F74850B6542969 /* Afterglow-Regular.ttf in Resources */,
+				DF047E033314463E9589D6C6 /* BODAR.ttf in Resources */,
+				DFAA613BAE20411388129094 /* Bright Gesture DEMO.otf in Resources */,
+				2FCA1A3D290D486C9CEAF796 /* Butler_Light.otf in Resources */,
+				39B2902259F3498F988B44B7 /* Butler_Medium.otf in Resources */,
+				7D00FC871B0A4B24B4AF9DCC /* Catalina Rayden.ttf in Resources */,
+				A5B657D925AC48D4B4A9A53A /* Cinzel-Bold.otf in Resources */,
+				AABA2AD55CA24D028B499603 /* Cinzel-Regular.otf in Resources */,
+				12ACAF04372D4A58B7401750 /* EDITION_.TTF in Resources */,
+				3DB0D518673944C28A528CAC /* Fraternite.ttf in Resources */,
+				1EB22FD0D4754B0FBFD3AD27 /* Galorine.ttf in Resources */,
+				D205701F15824EFF936462D1 /* Gyahegi.otf in Resources */,
+				5DE82453885D40E299FF6A9F /* HARMONY Personal use.otf in Resources */,
+				9613A44DB0C344B5AFE26B91 /* Love.ttf in Resources */,
+				8FC85973D3E54BAEB2465C5F /* MADE Sunflower PERSONAL USE.otf in Resources */,
+				D6D4A4EA9BB64667B266E3F2 /* Meiland Gorgeous.ttf in Resources */,
+				FCED59970F0B44CB9CEA0EB3 /* Mermaid Swash Caps.ttf in Resources */,
+				7D479A25C7C64164BF6A35CE /* Mermaid1001.ttf in Resources */,
+				3128AF0C3ECE4799BA1D1096 /* Monea Alegante.otf in Resources */,
+				D5FB1705D7FA4A289DF0B804 /* NewYork PERSONAL USE.otf in Resources */,
+				29630271DBB24DF788909A22 /* NT Josefine (only personal use).otf in Resources */,
+				74E7633725FA44AFBFB6EED6 /* NT Wagner (only personal use).otf in Resources */,
+				7841EEDFE6DA4197B9CDAA48 /* OptimusPrinceps.ttf in Resources */,
+				BF09FD6763D649B7B232330B /* OptimusPrincepsSemiBold.ttf in Resources */,
+				90CAC834E4984ACCB7C2ABB7 /* Vogue.ttf in Resources */,
+				8AF498934A1546588C860832 /* Wastinger Display Free Personal.ttf in Resources */,
+				E650C1BC26C842B9889A35FB /* african.ttf in Resources */,
+				9AA48EE2F33646F6BAA5F0C2 /* Asteria Royalty DEMO.otf in Resources */,
+				53BDA4FDD8D14C949007C926 /* Automatic.otf in Resources */,
+				D9A1764147084C6698D1B2D9 /* BARNEY POP.otf in Resources */,
+				D6848DFC919245AFB8EC3D61 /* BARNEY POP.ttf in Resources */,
+				AA91D8E4775441089F1A634A /* Bell and Lamb - Personal Use.otf in Resources */,
+				6B77F355AC8C47408EC8E9FC /* Boismen Light.ttf in Resources */,
+				99D436EAEA62445185CD3F1C /* Break.ttf in Resources */,
+				8EA298A0286D41F98202D3EE /* Broken.otf in Resources */,
+				DE2D08BD873D40E49F6EADE6 /* Corleone.TTF in Resources */,
+				C410DD255FC04F42A30C75E8 /* CorleoneDue.TTF in Resources */,
+				9DC78F4DE69B45D0BFDC770E /* Coup de Poker.ttf in Resources */,
+				6FE3C579AD85430D8278C360 /* Draw me the Rainbow.ttf in Resources */,
+				8FC35EB6D5434842A162CF00 /* Fake Identity.ttf in Resources */,
+				1880C790932E4106910769BA /* HARRYP__.TTF in Resources */,
+				A52A9CD929AC4CAEBCFC3E2D /* Jack Simba - Personal Use.otf in Resources */,
+				707271032BEB4B7CA9D79465 /* KGRedHands.ttf in Resources */,
+				DBEE02F02AEE45DC8C17869F /* KGRedHandsOutline.ttf in Resources */,
+				280440D955EE4D4DA82893E1 /* KGSecondChancesSketch.ttf in Resources */,
+				CFF006C20E0D447E911DF974 /* KGSecondChancesSolid.ttf in Resources */,
+				0AB5A3E9B8A3406A9CB0B652 /* MASQUE__.ttf in Resources */,
+				6833BF5561D54A64AFEE65AC /* PaybAck.ttf in Resources */,
+				BA6121DE86684F19A0C5CD2B /* RifficFree-Bold.ttf in Resources */,
+				0A80956B921348D6807ECD5C /* Saiyan-Sans Left Oblique.ttf in Resources */,
+				5FA130D7B72D41E1962336E4 /* Saiyan-Sans Right Oblique.ttf in Resources */,
+				CD9B6E339ED64FEE8BFF3FD6 /* Saiyan-Sans.ttf in Resources */,
+				4EB4D8909D924BF7B643A151 /* Sour Candy.ttf in Resources */,
+				829E227C8A2B458A852E3E92 /* Speedway.ttf in Resources */,
+				2F29ECBDD3A3494E8EE81B6C /* Stay and Shine.ttf in Resources */,
+				F9E525AEAF764EF6898601FA /* Stroke.ttf in Resources */,
+				F942C36BD34E4A1BA0D281C3 /* Sweet Pancakes.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		22F742496E6540402F174CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TattBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EBF5A9D309A3842B9929106 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TattBook/Pods-TattBook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TattBook/Pods-TattBook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TattBook/Pods-TattBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2705A59CAE3E07404CFDADD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TattBook-TattBookTests/Pods-TattBook-TattBookTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TattBook-TattBookTests/Pods-TattBook-TattBookTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TattBook-TattBookTests/Pods-TattBook-TattBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C32F54D77AE8001BD5009F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TattBook-TattBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* TattBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* TattBook */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37519F1C607DCE9A7B68C864 /* Pods-TattBook-TattBookTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TattBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TattBook.app/TattBook";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BE6C15261B526EDC918EAB /* Pods-TattBook-TattBookTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = TattBookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TattBook.app/TattBook";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A903C6FB602F0BE4C5CEA226 /* Pods-TattBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54D6M3975P;
+				ENABLE_BITCODE = NO;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDateTimePicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/libevent\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"$(PODS_ROOT)/boost-for-react-native\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"\"$(PODS_TARGET_SRCROOT)/include/\"",
+				);
+				INFOPLIST_FILE = TattBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 7.5;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tattey-app";
+				PRODUCT_NAME = TattBook;
+				PROVISIONING_PROFILE_SPECIFIER = "TattBook TattooLV Distribution";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDD231FC51A2E738854246A /* Pods-TattBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54D6M3975P;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CocoaAsyncSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/FBReactNativeSpec\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-Glog\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-PeerTalk\"",
+					"\"${PODS_ROOT}/Headers/Public/Flipper-RSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/FlipperKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RCT-Folly\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTTypeSafety\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCPicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDateTimePicker\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFastImage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNScreens\"",
+					"\"${PODS_ROOT}/Headers/Public/RNVectorIcons\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/React-perflogger\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactCommon\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImageWebPCoder\"",
+					"\"${PODS_ROOT}/Headers/Public/Toast\"",
+					"\"${PODS_ROOT}/Headers/Public/Yoga\"",
+					"\"${PODS_ROOT}/Headers/Public/YogaKit\"",
+					"\"${PODS_ROOT}/Headers/Public/fmt\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/libevent\"",
+					"\"${PODS_ROOT}/Headers/Public/libwebp\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-safe-area-context\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-splash-screen\"",
+					"\"${PODS_ROOT}/Headers/Public/rn-fetch-blob\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"\"$(PODS_ROOT)/boost-for-react-native\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+					"\"$(PODS_TARGET_SRCROOT)/include/\"",
+				);
+				INFOPLIST_FILE = TattBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 7.5;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tattey-app";
+				PRODUCT_NAME = TattBook;
+				PROVISIONING_PROFILE_SPECIFIER = "TattBook TattooLV Distribution";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TattBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TattBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "TattBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
