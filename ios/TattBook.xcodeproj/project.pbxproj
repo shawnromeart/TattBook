@@ -785,7 +785,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tattbook";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatty-app";
 				PRODUCT_NAME = TattBook;
 				PROVISIONING_PROFILE_SPECIFIER = "Brent Profile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -869,7 +869,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tattbook";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tatty-app";
 				PRODUCT_NAME = TattBook;
 				PROVISIONING_PROFILE_SPECIFIER = "Brent Profile";
 				SWIFT_VERSION = 5.0;
