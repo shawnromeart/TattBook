@@ -67,8 +67,7 @@ export const DefaultStyles = StyleSheet.create({
         },
     apmodalView: {
         width:'100%',
-        minHeight: height,
-        // height: height,
+        height: height,
         // flex:1,
         backgroundColor: theme4Default.primaryColor,
         paddingHorizontal:12,
@@ -93,7 +92,7 @@ export const DefaultStyles = StyleSheet.create({
             backgroundColor: theme4Default.primaryColor,
         },
         inputText:{
-            backgroundColor: theme4Default.exprimaryColor+'22',
+            backgroundColor: theme4Default.exprimaryColor+'66',
             borderRadius: 4,
             borderBottomColor: theme4Default.PrimaryText,
             borderBottomWidth: 1,

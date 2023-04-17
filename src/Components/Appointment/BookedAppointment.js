@@ -11,7 +11,7 @@ import LoaderModal from '../Utils/LoaderModal'
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { capitalizeFirstLetter, commonColors, formatAppointmentTime, theme4Default  } from '../config';
 import {SET_THEME_MODE} from '../../Reducers/types'
-// import moment from 'moment';
+import moment from 'moment';
 
 const height = Dimensions.get('window').height
 export default function BookedAppointment(props) {

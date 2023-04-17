@@ -7,9 +7,9 @@ import {createStore} from 'redux';
 import RootReducer from '../Reducers';
 import Navigator from './Navigator';
 
-// import codePush from 'react-native-code-push';
+import codePush from 'react-native-code-push';
 
-// import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 let store = createStore(RootReducer);
 
 function App(props) {
@@ -27,6 +27,6 @@ function App(props) {
   );
 }
 
-// App = codePush(App);
+App = codePush(App);
 
 export default App;

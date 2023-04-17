@@ -3,15 +3,15 @@ import { View, Text, ScrollView, Image, Modal, StyleSheet,TouchableOpacity,Activ
 import { DefaultStyles } from '../AppKaStyle/DefaultStyles'
 import { DarkModeStyles } from '../AppKaStyle/DarkModeStyles'
 import Icon from 'react-native-vector-icons/Ionicons';
-// import DateTimePicker from '@react-native-community/datetimepicker';
+import DateTimePicker from '@react-native-community/datetimepicker';
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import {bookAppointment,updateAppointment,fetch_user_appointments, addAppointmentImages} from '../../Apis/Appointment'
 import {useDispatch, useSelector} from 'react-redux'
 import { SET_APPOINTMENTS } from '../../Reducers/types';
 import { commonColors, formatAppointmentTime } from '../config';
 import moment from 'moment';
-// import Toast from 'react-native-simple-toast'; 
-import {launchImageLibrary} from 'react-native-image-picker'
+import Toast from 'react-native-simple-toast'; 
+import {launchCamera, launchImageLibrary} from 'react-native-image-picker'
 import AppointmentImages from './AppointmentImages';
 export default function AppointmentModal(props) {
 

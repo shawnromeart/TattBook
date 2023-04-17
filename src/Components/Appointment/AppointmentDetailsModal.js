@@ -3,7 +3,7 @@ import { View, Text, ScrollView, Image, Modal, StyleSheet, TextInput,ActivityInd
 import { DefaultStyles } from '../AppKaStyle/DefaultStyles'
 import { DarkModeStyles } from '../AppKaStyle/DarkModeStyles'
 import Icon from 'react-native-vector-icons/Ionicons';
-// import DateTimePicker from '@react-native-community/datetimepicker';
+import DateTimePicker from '@react-native-community/datetimepicker';
 import {processAppointmentRequest,fetch_user_appointments,sendAppointmentReminder, fetchAppointmentImages} from '../../Apis/Appointment'
 import {useDispatch,useSelector} from 'react-redux';
 import { SET_APPOINTMENTS } from '../../Reducers/types';

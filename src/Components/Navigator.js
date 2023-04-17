@@ -27,8 +27,8 @@ import {ActivityIndicator, View} from 'react-native';
 import {fetch_user_appointments} from '../Apis/Appointment';
 import SplashScreen from 'react-native-splash-screen';
 import {fetch_user_details} from '../Apis/Profile';
-// import {SafeAreaView} from 'react-native-safe-area-context';
-// import Toast from 'react-native-simple-toast';
+import {SafeAreaView} from 'react-native-safe-area-context';
+import Toast from 'react-native-simple-toast';
 const Tab = createBottomTabNavigator();
 const checkAuth = async (
   setCheckingAut,

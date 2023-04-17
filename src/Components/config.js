@@ -1,6 +1,6 @@
 //server configuration
 
-// import moment from 'moment';
+import moment from 'moment';
 
 export const serverBaseUrl = 'https://www.tattbooking.com/'; //server domain url will used as base for apis connections and  image full path resolution
 export const serverApiUrl = serverBaseUrl + 'tattey_app/appapis/'; //server api url will used as base for apis connections
