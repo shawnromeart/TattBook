@@ -1,5 +1,5 @@
-/* eslint-disable react/self-closing-comp */
 /* eslint-disable react-native/no-inline-styles */
+/* eslint-disable prettier/prettier */
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
 import React, {useState, useEffect, useRef} from 'react';
@@ -77,7 +77,6 @@ export default function Profile() {
   const [colorSaveLoader, setColorSaveLoader] = useState(false);
   const galleryImages = useSelector(state => state.user.images);
   const slots = useSelector(state => state.user.slots);
-  // const [styles, setStyles] = useState(DarkModeStyles)
   const [activeTab, setActiveTab] = useState(2);
   const [modalVisible, setModalVisible] = useState(false);
   const [modalVisible4Hours, setModalVisible4Hours] = useState(false);
@@ -165,7 +164,6 @@ export default function Profile() {
       setHeaderImage({uri: userDetails.header});
     }
   }, [userDetails]);
-  // const [userId,setUserId] = useState();
   const action4DarkMode = () => {
     dispatch({type: SET_THEME_MODE, payload: {themeMode: 'DarkMode'}});
   };
@@ -184,7 +182,6 @@ export default function Profile() {
     };
 
     launchImageLibrary(options, response => {
-      // console.log('Response = ', response.assets);
       if (response.didCancel) {
         console.log('User cancelled image picker');
       } else if (response.error) {
@@ -192,8 +189,6 @@ export default function Profile() {
       } else if (response.customButton) {
         console.log('User tapped custom button: ', response.customButton);
       } else {
-        // You can also display the image using data:
-        // console.log(response.assets[0]);
         const source = {uri: response.assets[0].uri};
         if (mode == CHANGE_USER_IMAGE_MODE) {
           setUserImage(source);
@@ -213,8 +208,6 @@ export default function Profile() {
           );
         } else if (mode == UPLOAD_GALLERY_IMAGE) {
           setLoaderModalVisible(true);
-          // imageFile,user_id,
-          // uploadImageToServer(response.assets,userDetails.name,galleryUploadCallback)
           setImageMode(true);
           setTotalUploadingImage(response.assets.length);
 
@@ -238,7 +231,6 @@ export default function Profile() {
     if (response.msg == 'success') {
       setTotalUploadedImage(totalUploadedImageRef.current + 1);
     } else {
-      // setLoaderModalVisible(false);
       setTotalFailedUploadingImage(totalFailedUploadingImageRef.current + 1);
     }
 
@@ -275,7 +267,6 @@ export default function Profile() {
     setLoadingHeaderImage(false);
   }
   const action4DefaultMode = () => {
-    // setStyles(DefaultStyles)
     dispatch({type: SET_THEME_MODE, payload: {themeMode: 'default'}});
   };
 
@@ -323,8 +314,7 @@ export default function Profile() {
           <Feather
             name="trash-2"
             size={18}
-            style={[styles.textLinkColor, {color: 'white'}]}
-          />
+            style={[styles.textLinkColor, {color: 'white'}]} />
         </TouchableOpacity>
       </View>
     );
@@ -332,7 +322,6 @@ export default function Profile() {
   function deleteSlot(id, callback) {
     setLoaderModalVisible(true);
     deleteHourSlot(id, userId, callback);
-    // createTwoButtonAlert('Slots',deleteHourSlot(id,userId,deleteCallback))
   }
   function deleteCallback(response) {
     if (response.msg == 'success') {
@@ -357,11 +346,9 @@ export default function Profile() {
   };
   function deleteImageCall(id, callback) {
     setLoaderModalVisible(true);
-    // callback()
     deleteImage(id, callback);
   }
   function renderGalleryImages(item) {
-    // console.log(item);
     return (
       <View style={[Internalstyles.GalleryWrapper]}>
         <ImageModal
@@ -370,8 +357,7 @@ export default function Profile() {
           style={Internalstyles.GalleryImg}
           source={{
             uri: item.image,
-          }}
-        />
+          }} />
         <TouchableOpacity
           onPress={() =>
             createTwoButtonAlert('Gallery', () =>
@@ -392,8 +378,6 @@ export default function Profile() {
       </View>
     );
   }
-  // console.log(userDetails,"hellp");
-
   return userDetails.pro == '0' &&
     (appMode == '0' || Platform.OS == 'android') ? (
     <Upgrade2Unlock />
@@ -411,7 +395,7 @@ export default function Profile() {
               Internalstyles.container,
               {backgroundColor: backgroundColor},
             ]}>
-            <Text style={styles.AppointmentTitle}> Profile</Text>
+            <Text style={styles.AppointmentTitle}>Profile</Text>
 
             <View style={{position: 'absolute', right: 4, top: 6}}>
               {styles == DarkModeStyles ? (
@@ -478,7 +462,7 @@ export default function Profile() {
               )}
             </View>
 
-            {loadingHeaderImage ? (
+            {(loadingHeaderImage == '' ? false : loadingHeaderImage) ? (
               <ActivityIndicator style={Internalstyles.profileHeader} />
             ) : (
               <ImageBackground
@@ -510,7 +494,7 @@ export default function Profile() {
             )}
             <TouchableOpacity
               onPress={() => openGallery(CHANGE_USER_IMAGE_MODE)}>
-              {loadingUserImage ? (
+              {(loadingUserImage == '' ? false : loadingUserImage) ? (
                 <ActivityIndicator style={Internalstyles.profile} />
               ) : (
                 <Image source={userImage} style={Internalstyles.profile} />
@@ -548,11 +532,8 @@ export default function Profile() {
                   </Text>
                 </TouchableOpacity>
               </View>
-              {/* <View style={Internalstyles.iconWrapper}>
-                                <Feather name="edit" size={18} style={[styles.primaryText,{color:"white"}]} onPress={() => setModalVisible(true)} />
-                                </View> */}
             </View>
-            {modalVisible ? (
+            {(modalVisible == '' ? false : modalVisible) ? (
               <ProfileDetailsModal
                 styles={styles}
                 modalVisible={modalVisible}
@@ -565,7 +546,7 @@ export default function Profile() {
               />
             ) : null}
 
-            {userDetails.phone ? (
+            {(userDetails?.phone == '' ? false : userDetails?.phone) ? (
               <View style={[Internalstyles.userProfileLinkWrapper]}>
                 <Text
                   style={[
@@ -602,13 +583,9 @@ export default function Profile() {
                   About
                 </Text>
                 {activeTab == 1 ? (
-                  <View
-                    style={[
-                      Internalstyles.activeTabColor,
-                      styles.activeTab,
-                    ]}></View>
+                  <View style={[Internalstyles.activeTabColor, styles.activeTab]} />
                 ) : (
-                  <View style={[Internalstyles.InactiveTabColor]}></View>
+                  <View style={[Internalstyles.InactiveTabColor]} />
                 )}
               </View>
               <View>
@@ -622,13 +599,9 @@ export default function Profile() {
                   Gallery
                 </Text>
                 {activeTab == 2 ? (
-                  <View
-                    style={[
-                      Internalstyles.activeTabColor,
-                      styles.activeTab,
-                    ]}></View>
+                  <View style={[Internalstyles.activeTabColor, styles.activeTab]} />
                 ) : (
-                  <View style={[Internalstyles.InactiveTabColor]}></View>
+                  <View style={[Internalstyles.InactiveTabColor]} />
                 )}
               </View>
             </View>
@@ -637,10 +610,7 @@ export default function Profile() {
                 <>
                   <View>
                     <View
-                      style={[
-                        Internalstyles.aboutIntroWrapper,
-                        // {marginBottom: 5},
-                      ]}>
+                      style={[Internalstyles.aboutIntroWrapper]}>
                       <Text
                         style={[
                           {fontSize: 20},
@@ -672,14 +642,11 @@ export default function Profile() {
                           </Text>
                         </TouchableOpacity>
                       </View>
-                      {/* <View style={Internalstyles.iconWrapper}>
-                                                    <Feather name="edit" size={18} style={[styles.primaryText,{color:"white"}]} onPress={() => setModalVisible(true)} />
-                                                </View> */}
                     </View>
-                    {userDetails.locality ||
-                    userDetails.city ||
-                    userDetails.state ||
-                    userDetails.zipcode ? (
+                    {(userDetails?.locality == '' ? false : userDetails?.locality) ||
+                    (userDetails?.city == '' ? false : userDetails?.city) ||
+                    (userDetails?.state == '' ? false : userDetails?.state) ||
+                    (userDetails?.zipcode == '' ? false : userDetails?.zipcode) ? (
                       <Text
                         style={[
                           styles.primaryText,
@@ -727,9 +694,6 @@ export default function Profile() {
                         </Text>
                       </TouchableOpacity>
                     </View>
-                    {/* <View style={Internalstyles.iconWrapper}>
-                                                <Feather name="edit" size={18} style={[styles.primaryText,{color:"white"}]} onPress={() => setModalVisible(true)} />
-                                            </View> */}
                   </View>
                   <Text
                     style={[
@@ -775,11 +739,6 @@ export default function Profile() {
                         </Text>
                       </TouchableOpacity>
                     </View>
-                    {/* <View>
-                                                <TouchableOpacity style={[Internalstyles.AddHoursBtn, styles.LinksAndIndicatorColor,{backgroundColor:themeColors.PrimaryText}]}>
-                                                    <Text style={[styles.primaryText,{color:themeColors.primaryColor}]} onPress={() => setModalVisible4Hours(true)}>Add Hours</Text>
-                                                </TouchableOpacity>
-                                            </View> */}
                   </View>
                   <View style={{paddingBottom: 20}}>
                     {slots &&
@@ -792,26 +751,9 @@ export default function Profile() {
                         ),
                       )}
                   </View>
-                  {/* {renderOpeningTimeCard()} */}
                 </>
               ) : (
                 <>
-                  {/* {galleryImages && galleryImages.map((key)=>(
-                                                <View style={[Internalstyles.GalleryWrapper]}>
-                                                    <Image source={{uri:key.image}} style={Internalstyles.GalleryImg} />
-                                                    <ImageModal
-                                                        resizeMode="contain"
-                                                        imageBackgroundColor="#000000"
-                                                        style={{
-                                                        width: 250,
-                                                        height: 250,
-                                                        }}
-                                                        source={{
-                                                        uri: key.image,
-                                                        }}
-                                                    />
-                                                </View>
-                                            ))} */}
                   <View style={[Internalstyles.GalleryWrapper]}>
                     <FlatList
                       data={[...galleryImages, {id: 'add-image', last: true}]}
@@ -845,18 +787,16 @@ export default function Profile() {
                       }}
                       showsHorizontalScrollIndicator={false}
                     />
-                    galleryLoader ? (
+                    {(galleryLoader == '' ? false : galleryLoader) ? (
                     <View style={[Internalstyles.GalleryWrapper]}>
-                      <ActivityIndicator style={Internalstyles.profile} />
+                      <ActivityIndicator style={[Internalstyles.profile]} />
                     </View>
-                    ) : null
+                    ) : null}
                   </View>
                 </>
               )}
             </View>
-            {/* </ScrollView> */}
-
-            {modalVisible4Hours ? (
+            {(modalVisible4Hours == '' ? false : modalVisible4Hours) ? (
               <AddHoursModal
                 styles={styles}
                 modalVisible4Hours={modalVisible4Hours}
@@ -882,11 +822,7 @@ export default function Profile() {
         <Modal
           animationType="fade"
           transparent={false}
-          visible={colorModalVisible}
-          onRequestClose={() => {
-            // Alert.alert("Modal has been closed.");
-            // setColorModalVisible(!colorModalVisible);
-          }}>
+          visible={colorModalVisible}>
           <View style={[styles.apmodalView, {paddingTop: 30}]}>
             <View style={{alignItems: 'flex-end'}}>
               <Icon
@@ -965,8 +901,7 @@ export default function Profile() {
                         <Picker.Item
                           label={item.label}
                           value={fontName}
-                          key={item.label}
-                        />
+                          key={item.label} />
                       );
                     })}
                   </Picker>
@@ -1013,7 +948,7 @@ export default function Profile() {
                   }
                 }
               }}>
-              {colorSaveLoader ? (
+              {(colorSaveLoader == '' ? false : colorSaveLoader) ? (
                 <ActivityIndicator
                   size="large"
                   color={themeColors.primaryColor}
@@ -1053,7 +988,6 @@ export default function Profile() {
 const Internalstyles = StyleSheet.create({
   container: {
     flex: 1,
-    // height:height
   },
   profileHeader: {
     width: '100%',
