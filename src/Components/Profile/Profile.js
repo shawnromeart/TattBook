@@ -849,7 +849,7 @@ export default function Profile() {
                     <View style={[Internalstyles.GalleryWrapper]}>
                       <ActivityIndicator style={Internalstyles.profile} />
                     </View>
-                    )
+                    ) : null
                   </View>
                 </>
               )}
