@@ -18,7 +18,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
-// import com.microsoft.codepush.react.CodePush;
+import com.microsoft.codepush.react.CodePush;
 import com.microsoft.appcenter.analytics.Analytics;
 // import com.microsoft.appcenter.reactnative.crashes.AppCenterReactNativeCrashesPackage;
 // import com.microsoft.appcenter.reactnative.analytics.AppCenterReactNativeAnalyticsPackage;
@@ -56,17 +56,17 @@ public class MainApplication extends Application implements ReactApplication {
         protected String getJSMainModuleName() {
           return "index";
         }
-        // @Override
-        // protected String getJSBundleFile() {
-        //     return CodePush.getJSBundleFile();
-        // }
+        @Override
+        protected String getJSBundleFile() {
+            return CodePush.getJSBundleFile();
+        }
 
-        // @Override
-        // protected boolean isNewArchEnabled() {
-        //   return BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
-        // }
+        @Override
+        protected boolean isNewArchEnabled() {
+          return BuildConfig.IS_NEW_ARCHITECTURE_ENABLED;
+        }
 
-        // @Override
+        @Override
         protected Boolean isHermesEnabled() {
           return BuildConfig.IS_HERMES_ENABLED;
         }
