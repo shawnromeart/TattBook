@@ -94,9 +94,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.tattbook"
+    namespace "com.tattey"
     defaultConfig {
-        applicationId "com.tattbook"
+        applicationId "com.tattey"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 26

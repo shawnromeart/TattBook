@@ -1,4 +1,4 @@
-package com.tattbook;
+package com.tattey;
 
 import android.content.Intent;
 import android.os.Bundle;

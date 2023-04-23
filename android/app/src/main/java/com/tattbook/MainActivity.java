@@ -1,4 +1,4 @@
-package com.tattbook;
+package com.tattey;
 
 import com.facebook.react.ReactActivity;
 
